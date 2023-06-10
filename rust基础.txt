@@ -1,0 +1,37 @@
+# 编译
+rustc runoob.rs
+
+# 安装
+rustup-init.exe
+2
+x86_64-pc-windows-gnu
+rustc -V
+cargo -V
+
+# 构建、编译、运行工程
+cargo new greeting
+cd greeting 
+cargo fmt
+cargo build
+cargo run
+
+# cargo子命令
+cargo clippy: 类似eslint，lint工具检查代码可以优化的地方
+cargo fmt: 类似go fmt，代码格式化
+cargo tree: 查看第三方库的版本和依赖关系
+cargo bench: 运行benchmark(基准测试,性能测试)
+cargo udeps(第三方): 检查项目中未使用的依赖
+cargo build/run --release 
+
+
+# 转义字符
+\\
+\'
+\"
+{{
+}}
+
+
+
+
+
